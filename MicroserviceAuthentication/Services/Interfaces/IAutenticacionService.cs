@@ -8,5 +8,6 @@ namespace MicroserviceAuthentication.Services.Interfaces
         //contrato, estable de estructuras de clases
         //contiene metodos abstractos(sin implementacion, si ejecucion)
         public  Task<LoginResponseDTO> Login(LoginRequestDTO model);
+        Task<string> Register(RegistrationRequestDto registrationRequestDto);
     }
 }
