@@ -1,0 +1,29 @@
+﻿@model LEscogidoShopWebProject.DTO.LoginRequestDTO
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<form method="post">
+    <div class="container border p4 bg-gradient bg-black border-success">
+        <div class="row text-center">
+            <h1 class="text-white">Login</h1>
+        </div>
+        <div class="row text-center">
+            <div asp-validation-summary="All" class="text-danger"></div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 offset-md-3 pb-2">
+                <input asp-for="UserName" class="form-control" placeholder="UserName" />
+            </div>
+            <div class="col-12 col-md-6 offset-md-3 pb-2">
+                <input asp-for="Password" class="form-control" placeholder="Contraseña" />
+            </div>
+            <div class="col-6 offset-3 pb-5">
+                <button type="submit" class="form-control btn btn-success">Ingresar</button>
+            </div>
+        </div>
+    </div>
+</form>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
