@@ -29,7 +29,7 @@ namespace LEscogidoShopWebProject.Controllers
             LoginResponseDTO response = new LoginResponseDTO();
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(_configuration["ApiCupon"]);
+                client.BaseAddress = new Uri(_configuration["ApiAutenticacion"]);
 
                 var postTask = client.PostAsJsonAsync<LoginRequestDTO>("Login", model);
                 postTask.Wait();

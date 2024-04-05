@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceAuthentication"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEscogidoShopWebProject", "LEscogidoShopWebProject\LEscogidoShopWebProject.csproj", "{4D211A61-BE3F-4D5B-9247-39E0F1AB5453}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{2A098004-7E9C-4CAA-AAF5-AC05AB05810A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{0BE95BDF-5E2E-4D7F-A3C5-D69A89E30B68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,10 @@ Global
 		{4D211A61-BE3F-4D5B-9247-39E0F1AB5453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D211A61-BE3F-4D5B-9247-39E0F1AB5453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D211A61-BE3F-4D5B-9247-39E0F1AB5453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE95BDF-5E2E-4D7F-A3C5-D69A89E30B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE95BDF-5E2E-4D7F-A3C5-D69A89E30B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE95BDF-5E2E-4D7F-A3C5-D69A89E30B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE95BDF-5E2E-4D7F-A3C5-D69A89E30B68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,7 @@ Global
 		{59B3E8C8-9A7A-41F3-9EDD-4306B5C8B6B0} = {0946DAA3-4B13-4CFC-8BAA-D23D57CF9FC1}
 		{7B2500FF-DA0B-4EFA-AE1D-170E9530D257} = {0946DAA3-4B13-4CFC-8BAA-D23D57CF9FC1}
 		{4D211A61-BE3F-4D5B-9247-39E0F1AB5453} = {1B492C02-7189-4F70-950D-5CD2735819C7}
+		{0BE95BDF-5E2E-4D7F-A3C5-D69A89E30B68} = {2A098004-7E9C-4CAA-AAF5-AC05AB05810A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {25535597-92C4-4A50-89FE-8A64D9BEDF99}

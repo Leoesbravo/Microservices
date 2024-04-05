@@ -1,4 +1,4 @@
-﻿namespace MicroserviceCupon.DTO
+﻿namespace LEscogidoShopWebProject.DTO
 {
     public class CuponDTO
     {
@@ -6,6 +6,6 @@
         public string Codigo { get; set; }
         public double Descuento { get; set; }
         public int CantidadMinima { get; set; }
-        public List<object>? Cupones { get; set; } 
+        public List<object>? Cupones { get; set; }
     }
 }
