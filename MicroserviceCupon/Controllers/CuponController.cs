@@ -37,7 +37,7 @@ namespace MicroserviceCupon.Controllers
                         result.Objects.Add(dtoCupon);
                     }
 
-                    return Ok(result);
+                    return Ok(listCupones);
                 }
                 else
                 {
